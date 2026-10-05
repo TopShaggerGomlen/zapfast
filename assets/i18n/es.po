@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: ZapFast\n"
 "Report-Msgid-Bugs-To: https://github.com/crmne/zapfast/issues/new?"
 "template=translation.yml\n"
-"POT-Creation-Date: 2026-10-05 17:15+0300\n"
+"POT-Creation-Date: 2026-10-05 17:59+0300\n"
 "PO-Revision-Date: 2026-09-22 00:00-0300\n"
 "Last-Translator: ZapFast contributors\n"
 "Language-Team: Spanish\n"
@@ -179,7 +179,7 @@ msgstr "Bloqueados"
 msgid "No favorites yet"
 msgstr "Aún no hay favoritos"
 
-#: src/ui/chats.rs:885 src/app.rs:1964
+#: src/ui/chats.rs:885 src/app.rs:1974
 msgid "Message yourself"
 msgstr "Envíate un mensaje"
 
@@ -706,7 +706,7 @@ msgstr "Notificaciones de escritorio"
 #: src/ui/settings.rs:503
 msgid ""
 "After one notification, a group stays quiet for 10 minutes. Opening the "
-"group resets this."
+"group resets this. Mentions and replies to you still notify."
 msgstr ""
 
 #: src/ui/settings.rs:508 src/ui/settings.rs:1889
@@ -1135,29 +1135,29 @@ msgstr "Nadie todavía"
 msgid "Could not delete the removed account's files"
 msgstr ""
 
-#: src/app.rs:1869
+#: src/app.rs:1879
 #, rust-format
 msgid "A label named “{name}” already exists."
 msgstr "Ya existe una etiqueta llamada «{name}»."
 
-#: src/app.rs:1945
+#: src/app.rs:1955
 #, rust-format
 msgid "{name} (You)"
 msgstr "{name} (Tú)"
 
-#: src/app.rs:1946 src/app.rs:1965
+#: src/app.rs:1956 src/app.rs:1975
 msgid "You"
 msgstr "Tú"
 
-#: src/app.rs:2812
+#: src/app.rs:2822
 msgid "Could not use this image"
 msgstr "No se pudo usar esta imagen"
 
-#: src/app.rs:3309
+#: src/app.rs:3319
 msgid "Not sent: ZapFast is not connected to WhatsApp."
 msgstr "No enviado: ZapFast no está conectado a WhatsApp."
 
-#: src/app.rs:3313
+#: src/app.rs:3323
 msgid ""
 "Not sent: the message you’re replying to isn’t available on this computer. "
 "Cancel the reply to send without a quote."
@@ -1165,36 +1165,36 @@ msgstr ""
 "No enviado: el mensaje al que respondes no está disponible en este equipo. "
 "Cancela la respuesta para enviarlo sin cita."
 
-#: src/app.rs:4845
+#: src/app.rs:4855
 msgid "Added to favorites"
 msgstr "Añadido a favoritos"
 
-#: src/app.rs:4920
+#: src/app.rs:4930
 msgid "Sending the sticker pack…"
 msgstr "Enviando el paquete de stickers…"
 
-#: src/app.rs:5213 src/ui/labels.rs:253
+#: src/app.rs:5223 src/ui/labels.rs:253
 #, rust-format
 msgid "You have {limit} labels, the most ZapFast keeps."
 msgstr "Tienes {limit} etiquetas, el máximo que guarda ZapFast."
 
-#: src/app.rs:5900
+#: src/app.rs:5910
 msgid "App lock password saved"
 msgstr ""
 
-#: src/app.rs:5908
+#: src/app.rs:5918
 msgid "App lock turned off"
 msgstr ""
 
-#: src/app.rs:6021
+#: src/app.rs:6031
 msgid "This video opens in your system player"
 msgstr "Este vídeo se abre en el reproductor del sistema"
 
-#: src/app.rs:6454
+#: src/app.rs:6464
 msgid "Copied image"
 msgstr "Imagen copiada"
 
-#: src/app.rs:6457 src/app.rs:6462
+#: src/app.rs:6467 src/app.rs:6472
 msgid "Failed to copy image"
 msgstr "Error al copiar la imagen"
 
@@ -1586,7 +1586,7 @@ msgstr ""
 msgid "Unlink"
 msgstr "En línea"
 
-#: src/notify.rs:320
+#: src/notify.rs:370
 #, fuzzy
 msgid "New message"
 msgstr "Escribe un mensaje"
