@@ -353,6 +353,9 @@ does not count toasts remaining in Windows notification history. On Linux and
 Windows, notifications show the chat picture and open the chat at the message
 they announced when clicked. Muted chats do not send notifications, and
 archived chats stay quiet while they remain archived. You can change both settings.
+To hear less from busy chats, turn on **Limit direct message notifications** or
+**Limit group notifications** in **Settings > Notifications**: a chat then sends
+one notification, stays quiet for 10 minutes, and notifies again once you open it.
 
 Press `Ctrl+/` or click the keyboard button under the composer to list all
 shortcuts.
